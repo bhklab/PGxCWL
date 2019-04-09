@@ -1,0 +1,7 @@
+get-recomputed2013:
+  class: File
+  path: ../Drug_Recomputed/2013/recomputed_2013.R
+
+GRAYnormalized2013:
+  class: File
+  path: ../Drug_Normalized/2013/GRAYnormalized_2013.RData

@@ -1,0 +1,7 @@
+get-drugcuration:
+  class: File
+  path: drug_curation.R
+
+drug_annotation:
+  class: File
+  path: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/annotation/drugs_with_ids.csv

@@ -1,0 +1,38 @@
+get-rna:
+  class: File
+  path: ../RNA/rna.R
+
+u133aexp:
+  class: File
+  path: ../RNA/u133a/breastCellLineExpression2.txt
+
+u133ainfo:
+  class: File
+  path: ../RNA/u133a/E-TABM-157.sdrf.txt
+
+u133afeature:
+  class: File
+  path: ../RNA/u133a/A-AFFY-33.adf.txt
+
+exonexp:
+  class: File
+  path: ../RNA/exon/cellLine_data_matrix.txt
+
+exoninfo:
+  class: File
+  path: ../RNA/exon/E-MTAB-181.sdrf.txt
+
+exonfeature:
+  class: File
+  path: ../../../annotation/annot_ensembl_all_genes.csv
+
+
+
+
+
+
+
+
+
+
+

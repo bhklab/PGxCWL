@@ -1,0 +1,16 @@
+get-celllineinfo:
+  class: File
+  path: ../Cellline_Info/cellline_info.R
+
+published_info:
+  class: File
+  path: ../Drug_Published/gb-2013-14-10-r110-s1.xlsx
+
+cellcuration:
+  class: File
+  path: ../Cell_Curation/cell_cur.RData
+
+
+
+
+

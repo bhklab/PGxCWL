@@ -1,0 +1,13 @@
+Array Design Name	"Affymetrix GeneChip Human Exon 1.0 ST Array version 1, [HuEx-1_0-st-v1]"
+Provider	"Affymetrix, Inc. (support@affymetrix.com)"
+Comment[ArrayExpressAccession]	A-AFFY-143
+Comment[Description]	"This is a placeholder for the array design.  This chip is slightly different from the version 2 one (A-MEXP-2246) in the control probes.  Probes interrogating exons have not been changed between versions 1 and 2 of this array.  Annotation files for version 1 are no longer available from Affymetrix (as of January 2015). Please see http://www.affymetrix.com/catalog/131452/AFFY/Human+Exon+ST+Array#1_3 and https://groups.google.com/forum/#!topic/aroma-affymetrix/az5T0wNtJRU for more details.<br><br>Here is the original description of the array provided by Affymetrix: ""With approximately four probes per exon and roughly 40 probes per gene, the GeneChip Human Exon 1.0 ST Array enables two complementary levels of analysis. Multiple probes per exon enable ""exon-level"" analysis and allow you to distinguish between different isoforms of a gene. This exon-level analysis on a whole-genome scale opens the door to detecting specific alterations in exon usage that may play a central role in disease mechanism and etiology. The second level is ""gene-level"" expression analysis, in which multiple probes on different exons are summarized into an expression value of all transcripts from the same gene. Library files are available for download from Affymetrix at <a href=""http://www.affymetrix.com/support/technical/libraryfilesmain.affx"">http://www.affymetrix.com/support/technical/libraryfilesmain.affx</a>."""
+Comment[SubmittedName]	Affymetrix GeneChip Human Exon 1.0 ST
+Comment[ArrayExpressReleaseDate]	2009-06-02
+Comment[Organism]	Homo sapiens
+	
+[main]	
+Composite Element Name	
+3721194	
+3721202	
+3721203	
