@@ -50,7 +50,7 @@ inputs:
 
 steps:
   compilecellcuration:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/Cell_Curation/GRAY_CellCuration.cwl
+    run: ../Cell_Curation/GRAY_CellCuration.cwl
     in:
       get-cellcuration: cellcurationRscript
       cell_annotation: celllines
@@ -58,7 +58,7 @@ steps:
      - cellcuration
 
   compiletissuecuration:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/Tissue_Curation/GRAY_TissueCuration.cwl
+    run: ../Tissue_Curation/GRAY_TissueCuration.cwl
     in:
       cellcuration: compilecellcuration/cellcuration
       get-tissuecuration: tissuecurationRscript
@@ -68,7 +68,7 @@ steps:
 
 
   compiledrugcuration:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/Drug_Curation/GRAY_DrugCuration.cwl
+    run: ../Drug_Curation/GRAY_DrugCuration.cwl
     in:
       get-drugcuration: drugcurationRscript
       drug_annotation: drugs
@@ -77,7 +77,7 @@ steps:
 
 
   compilecelllineinfo:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/Cellline_Info/GRAY_CelllineInfo.cwl
+    run: ../Cellline_Info/GRAY_CelllineInfo.cwl
     in:
       cellcuration: compilecellcuration/cellcuration
       get-celllineinfo: celllineinfoRscript
@@ -86,7 +86,7 @@ steps:
       - celllineinfo
 
   normalization:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/Drug_Normalized/2013/GRAY_Normalized2013.cwl
+    run: ../Drug_Normalized/2013/GRAY_Normalized2013.cwl
     in:
       get-normalized2013: normalizedRscript
       drug_raw2013: drugraw
@@ -95,7 +95,7 @@ steps:
       - GRAYnormalized2013
 
   recomputation:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/Drug_Recomputed/2013/GRAY_Recomputed2013.cwl
+    run: ../Drug_Recomputed/2013/GRAY_Recomputed2013.cwl
     in:
       GRAYnormalized2013: normalization/GRAYnormalized2013
       get-recomputed2013: recomputedRscript
@@ -105,7 +105,7 @@ steps:
       - GRAYrecomputed2013
 
   compiledrugpublished:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/Drug_Published/GRAY_Published.cwl
+    run: ../Drug_Published/GRAY_Published.cwl
     in:
       get-drugpublished: publishedRscript
       drug_published: drugpublished
@@ -113,7 +113,7 @@ steps:
      - GRAYpublished
 
   compileRNAseq:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/RNAseq/GRAY_RNAseq.cwl
+    run: ../RNAseq/GRAY_RNAseq.cwl
     in:
       get-rnaseq: rnaseqRscript
       cellcuration: compilecellcuration/cellcuration
@@ -126,7 +126,7 @@ steps:
      - rnaseq
 
   compileRPPA:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/RPPA/GRAY_RPPA.cwl
+    run: ../RPPA/GRAY_RPPA.cwl
     in:
       get-rppa: rppaRscript
       expression: rppaexp
@@ -136,7 +136,7 @@ steps:
      - rppa
 
   compileRNA:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/RNA/GRAY_RNA.cwl
+    run: ../RNA/GRAY_RNA.cwl
     in:
       get-rna: rnaRscript
       u133aexp: rnau133aexp
@@ -150,7 +150,7 @@ steps:
      - rna
 
   compileCNV:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/CNV/GRAY_CNV.cwl
+    run: ../CNV/GRAY_CNV.cwl
     in:
       get-cnv: cnvRscript
       snp6: snpexp
@@ -161,7 +161,7 @@ steps:
      - cnv
 
   compileMethylation:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/Methylation/GRAY_Methylation.cwl
+    run: ../Methylation/GRAY_Methylation.cwl
     in:
       get-methylation: methylationRscript
       matrix: methylationmatrix
@@ -172,7 +172,7 @@ steps:
      - methylation
 
   getGRAY2013PSet:
-    run: /Users/anthonymammoliti/Desktop/Projects/CWL/PSets/GRAY/pipelines/getGRAY2013/GRAY_2013.cwl
+    run: ../getGRAY2013/GRAY_2013.cwl
     in:
       get-gray2013: gray2013Rscript
       cellcuration: compilecellcuration/cellcuration
