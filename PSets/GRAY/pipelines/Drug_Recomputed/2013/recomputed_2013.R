@@ -30,8 +30,6 @@ rownames(raw.sensitivity) <- tt
 
 tt <- paste0("doses", con_tested)
 
-raw.sensitivity <- raw.sensitivity[c(1:3),]
-
 save(raw.sensitivity, tt, con_tested ,file="drug_norm_post.RData")
 
 raw.sensitivity <- raw.sensitivity[ ,-c(1,2)]
