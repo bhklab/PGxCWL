@@ -14,6 +14,7 @@ RUN Rscript -e "install.packages('abind')"
 RUN Rscript -e "install.packages('gdata')"
 RUN Rscript -e "install.packages('openxlsx')"
 RUN Rscript -e "install.packages('readxl')"
+RUN Rscript -e "install.packages('calibrate')"
 RUN wget 'https://uhnbreast.blob.core.windows.net/docker/PharmacoGxPrivate_0.0.1.tar.gz'
 RUN wget 'https://uhnbreast.blob.core.windows.net/docker/CoreGx_0.0.001.tar.gz'
 RUN tar zxvf PharmacoGxPrivate_0.0.1.tar.gz
