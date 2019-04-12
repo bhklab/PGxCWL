@@ -1,0 +1,16 @@
+get-celllineinfo:
+  class: File
+  path: ../Cellline_Info/2017/cellline_info.R
+
+published_info:
+  class: File
+  path: ../Cellline_Info/2017/bc_cellines_neel_subtypes.csv
+
+cellcuration:
+  class: File
+  path: ../Cell_Curation/cell_cur.RData
+
+
+
+
+

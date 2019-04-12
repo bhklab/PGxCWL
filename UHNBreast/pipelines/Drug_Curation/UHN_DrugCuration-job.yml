@@ -1,0 +1,7 @@
+get-drugcuration:
+  class: File
+  path: ../Drug_Curation/drug_curation.R
+
+drug_annotation:
+  class: File
+  path: ../../../annotation/drugs_with_ids.csv
