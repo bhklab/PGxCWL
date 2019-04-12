@@ -1,7 +1,0 @@
-get-normalized2013:
-  class: File
-  path: ../Drug_Normalized/2013/normalized_2013.R
-
-drug_raw2013:
-  class: File
-  path: ../Drug_Normalized/2013/gb-2013-14-10-r110-s9.txt
