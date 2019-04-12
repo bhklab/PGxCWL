@@ -1,0 +1,1 @@
+drug	max concentration(uM)	Folderlotinib	31.25	3paclitaxel	50	3nothing	30	3

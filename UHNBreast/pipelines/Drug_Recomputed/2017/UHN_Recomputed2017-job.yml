@@ -1,0 +1,12 @@
+get-recomputed2017:
+  class: File
+  path: ../2017/recomputed_2017.R
+
+drug_raw2017:
+  class: Directory
+  path: ../2017
+
+computescript:
+  class: File
+  path: ../2017/ComputeSensitivity.R
+

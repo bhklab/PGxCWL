@@ -1,0 +1,12 @@
+get-recomputed2019:
+  class: File
+  path: ../2019/recomputed_2019.R
+
+drug_raw2019:
+  class: Directory
+  path: ../2019
+
+computescript:
+  class: File
+  path: ../2019/ComputeSensitivity.R
+

@@ -1,0 +1,13 @@
+drug	max concentration(uM)	Fold
+
+UNC0642	10	3
+
+BYL719	30	3
+
+paclitaxel	0.02	3
+
+lapatinib	31.25	3
+
+herceptin	1374	2
+
+nothing	30	3
