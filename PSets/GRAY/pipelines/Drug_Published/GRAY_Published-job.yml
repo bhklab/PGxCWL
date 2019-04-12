@@ -1,7 +1,0 @@
-get-drugpublished:
-  class: File
-  path: ../Drug_Published/drug_published.R
-
-drug_published:
-  class: File
-  path: ../Drug_Published/gb-2013-14-10-r110-s1.xlsx
