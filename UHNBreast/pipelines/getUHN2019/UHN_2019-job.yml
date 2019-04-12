@@ -1,0 +1,44 @@
+get-uhn2019:
+  class: File
+  path: ../getUHN2019/UHN2019.R
+
+cellcuration:
+  class: File
+  path: ../Cell_Curation/cell_cur.RData
+
+tissuecuration:
+  class: File
+  path: ../Tissue_Curation/tissue_cur.RData
+
+drugcuration:
+  class: File
+  path: ../Drug_Curation/drug_cur.RData
+
+celllineinfo:
+  class: File
+  path: ../Cellline_Info/2019/cellline_info.RData
+
+UHNrecomputed2019:
+  class: File
+  path: ../Drug_Recomputed/2019/UHNRecomputed_2019.RData
+
+rnaseq:
+  class: File
+  path: ../RNAseq/RNAseq_processed.RData
+
+rppa:
+  class: File
+  path: ../RPPA/RPPA_processed.RData
+
+cna:
+  class: File
+  path: ../CNA/CNA_processed.RData
+
+mirna:
+  class: File
+  path: ../miRNA/miRNA_processed.RData
+
+
+
+
+

@@ -1,0 +1,19 @@
+get-rppa:
+  class: File
+  path: ../RPPA/rppa.R
+
+expression:
+  class: File
+  path: ../RPPA/breast_rppa.xlsx
+
+proteininfo:
+  class: File
+  path: ../RPPA/protein_info.csv
+
+proteinfeature:
+  class: File
+  path: ../RPPA/protein_feature.csv
+
+
+
+

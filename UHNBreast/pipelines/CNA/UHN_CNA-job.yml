@@ -1,0 +1,20 @@
+get-cna:
+  class: File
+  path: ../CNA/cna.R
+
+snp6:
+  class: File
+  path: ../CNA/breast_cna_lrr.txt
+
+cnainfo:
+  class: File
+  path: ../CNA/CNA_info.csv
+
+cnafeature:
+  class: File
+  path: ../../../annotation/annot_ensembl_all_genes.csv
+
+
+
+
+

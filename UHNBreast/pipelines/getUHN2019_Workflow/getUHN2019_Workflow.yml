@@ -1,0 +1,117 @@
+celllines:
+  class: File
+  path: ../../../annotation/cell_annotation_all.csv
+
+cellcurationRscript:
+  class: File
+  path: ../Cell_Curation/cell_curation.R
+
+tissuecurationRscript:
+  class: File
+  path: ../Tissue_Curation/tissue_curation.R
+
+tissues:
+  class: File
+  path: ../../../annotation/cell_annotation_all.csv
+
+drugs:
+  class: File
+  path: ../../../annotation/drugs_with_ids.csv
+
+drugcurationRscript:
+  class: File
+  path: ../Drug_Curation/drug_curation.R
+
+
+celllinespublished:
+  class: File
+  path: ../Cellline_Info/2019/bc_cellines_neel_subtypes.csv
+
+celllineinfoRscript:
+  class: File
+  path: ../Cellline_Info/2019/cellline_info.R
+
+drugraw:
+  class: Directory
+  path: ../Drug_Recomputed/2019
+
+recomputedRscript:
+  class: File
+  path: ../Drug_Recomputed/2019/recomputed_2019.R
+
+computeRscript:
+  class: File
+  path: ../Drug_Recomputed/2019/ComputeSensitivity.R
+
+rnaseqRscript:
+  class: File
+  path: ../RNAseq/rna_seq.R
+
+rnaseqmatrix:
+  class: File
+  path: ../RNAseq/breast_rnaseq_qn.txt
+
+rnaseqpdata:
+  class: File
+  path: ../RNAseq/RNA_info.csv
+
+rnaseqfdata:
+  class: File
+  path: ../../../annotation/annot_ensembl_all_genes.csv
+
+rppaRscript:
+  class: File
+  path: ../RPPA/rppa.R
+
+rppaexp:
+  class: File
+  path: ../RPPA/breast_rppa.xlsx
+
+rppapdata:
+  class: File
+  path: ../RPPA/protein_info.csv
+
+rppafdata:
+  class: File
+  path: ../RPPA/protein_feature.csv
+
+cnaRscript:
+  class: File
+  path: ../CNA/cna.R
+
+snpexp:
+  class: File
+  path: ../CNA/breast_cna_lrr.txt
+
+cnapdata:
+  class: File
+  path: ../CNA/CNA_info.csv
+
+cnafdata:
+  class: File
+  path: ../../../annotation/annot_ensembl_all_genes.csv
+
+mirnaRscript:
+  class: File
+  path: ../miRNA/mirna.R
+
+mirnamatrix:
+  class: File
+  path: ../miRNA/breast_mirna.txt
+
+mirnapdata:
+  class: File
+  path: ../miRNA/mirna_info.csv
+
+mirnafdata:
+  class: File
+  path: ../miRNA/miRNA.xls
+
+uhn2019Rscript:
+  class: File
+  path: ../getUHN2019/UHN2019.R
+
+
+
+
+  

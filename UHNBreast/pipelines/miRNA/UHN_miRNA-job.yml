@@ -1,0 +1,20 @@
+get-mirna:
+  class: File
+  path: ../miRNA/mirna.R
+
+matrix:
+  class: File
+  path: ../miRNA/breast_mirna.txt
+
+mirnainfo:
+  class: File
+  path: ../miRNA/mirna_info.csv
+
+mirnafeature:
+  class: File
+  path: ../miRNA/miRNA.xls
+
+
+
+
+

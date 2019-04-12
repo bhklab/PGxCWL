@@ -1,0 +1,20 @@
+get-rnaseq:
+  class: File
+  path: ../RNAseq/rna_seq.R
+
+matrix:
+  class: File
+  path: ../RNAseq/breast_rnaseq_qn.txt
+
+rnaseqinfo:
+  class: File
+  path: ../RNAseq/RNA_info.csv
+
+rnaseqfeature:
+  class: File
+  path: ../../../annotation/annot_ensembl_all_genes.csv
+
+
+
+
+
