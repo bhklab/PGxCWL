@@ -1,0 +1,27 @@
+get-recomputed2017:
+  class: File
+  path: ../Drug_Recomputed/2017/recomputed_2017.R
+
+drug_raw2017:
+  class: File
+  path: ../Drug_Recomputed/2017/Gray_data_raw_dose_response.csv
+
+drug_conc2017:
+  class: File
+  path: ../Drug_Recomputed/2017/Gray_drug_conc.csv
+
+GRValues:
+  class: File
+  path: ../Drug_Recomputed/2017/DS2_datafile.tsv
+
+crosscell:
+  class: File
+  path: ../Drug_Recomputed/2017/DS0_crossreferencingCELLS.txt
+
+crossdrug:
+  class: File
+  path: ../Drug_Recomputed/2017/DS0_crossreferencingPERTURBAGENS.txt
+
+computed2013sens:
+  class: File
+  path: ../Drug_Recomputed/2017/GRAY_2013_Sens.RData

@@ -1,0 +1,20 @@
+get-methylation:
+  class: File
+  path: ../Methylation/methylation.R
+
+matrix:
+  class: File
+  path: ../Methylation/GSE42944_FackFinal.txt
+
+methylationinfo:
+  class: File
+  path: ../Methylation/methylation_info.csv
+
+methylationfeature:
+  class: File
+  path: ../Methylation/GPL8490_HumanMethylation27_270596_v.1.2.csv
+
+
+
+
+

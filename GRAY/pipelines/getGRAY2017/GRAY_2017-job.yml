@@ -1,0 +1,50 @@
+get-gray2017:
+  class: File
+  path: ../getGRAY2017/GRAY2017.R
+
+cellcuration:
+  class: File
+  path: ../Cell_Curation/cell_cur.RData
+
+tissuecuration:
+  class: File
+  path: ../Tissue_Curation/tissue_cur.RData
+
+drugcuration:
+  class: File
+  path: ../Drug_Curation/drug_cur.RData
+
+celllineinfo:
+  class: File
+  path: ../Cellline_Info/cellline_info.RData
+
+drugnormpost:
+  class: File
+  path: ../Drug_Recomputed/2017/drug_norm_post2017.RData
+
+GRAYrecomputed2017:
+  class: File
+  path: ../Drug_Recomputed/2017/GRAYrecomputed_2017.RData
+
+rnaseq:
+  class: File
+  path: ../RNAseq/RNAseq_processed.RData
+
+rppa:
+  class: File
+  path: ../RPPA/RPPA_processed.RData
+
+rna:
+  class: File
+  path: ../RNA/RNA_processed.RData
+
+cnv:
+  class: File
+  path: ../CNV/CNV_processed.RData
+
+methylation:
+  class: File
+  path: ../Methylation/Methylation_processed.RData
+
+
+

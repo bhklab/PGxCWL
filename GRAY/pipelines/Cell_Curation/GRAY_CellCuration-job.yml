@@ -1,0 +1,7 @@
+get-cellcuration:
+  class: File
+  path: ../Cell_Curation/cell_curation.R
+
+cell_annotation:
+  class: File
+  path: ../../../annotation/cell_annotation_all.csv

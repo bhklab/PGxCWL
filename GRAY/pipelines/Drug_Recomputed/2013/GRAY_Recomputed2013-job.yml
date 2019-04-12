@@ -1,0 +1,7 @@
+get-recomputed2013:
+  class: File
+  path: ../Drug_Recomputed/2013/recomputed_2013.R
+
+drug_raw2013:
+  class: File
+  path: ../Drug_Recomputed/2013/gb-2013-14-10-r110-s9.txt
