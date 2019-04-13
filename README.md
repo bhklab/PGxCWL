@@ -7,3 +7,6 @@ To execute a workflow, perform the following command within the workflow directo
 <br/>
 <br/>
 `cwltool getGRAY2017_Workflow.cwl getGRAY2017_Workflow.yml`
+
+
+**NOTE**: Methylation data for GRAY 2013 and 2017 are compressed for uploading to GitHub. Therefore, please unzip the raw data file before execution.
